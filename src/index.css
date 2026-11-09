@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --sidebar-bg: #29524a;       /* Hijau gelap soft */
+  --bg-main: #f4f7f6;          /* Abu-abu terang soft */
+  --card-bg: #ffffff;
+  --text-main: #2d3748;
+  --accent-coral: #e07a5f;     /* Soft Coral untuk prioritas/card */
+  --accent-sage: #81b29a;      /* Soft Sage Green */
+  --accent-purple: #9b89b3;    /* Soft Purple Muted */
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+/* Sidebar Khas Referensi */
+.custom-sidebar {
+  background-color: var(--sidebar-bg);
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.custom-sidebar .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.custom-sidebar .nav-link:hover, 
+.custom-sidebar .nav-link.active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Kartu & Statistik Soft Aesthetic */
+.stat-card-sage {
+  background-color: #e8f1ec;
+  border: none;
+  border-radius: 16px;
+}
+
+.stat-card-coral {
+  background-color: #faede6;
+  border: none;
+  border-radius: 16px;
+}
+
+.stat-card-purple {
+  background-color: #f1edf5;
+  border: none;
+  border-radius: 16px;
+}
+
+/* Tombol Aksi */
+.btn-custom-dark {
+  background-color: #1e293b;
+  color: #ffffff;
+  border-radius: 12px;
+  font-weight: 600;
+  border: none;
+  transition: opacity 0.2s;
+}
+
+.btn-custom-dark:hover {
+  background-color: #0f172a;
+  color: #ffffff;
+}
